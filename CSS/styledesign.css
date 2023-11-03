@@ -1,0 +1,94 @@
+body {
+    color:white;
+    background-image: url('../images/bg.png');
+    font-family: sans-serif;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+   background-color: black;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+ }
+ nav h1{
+    padding-right: 300px;
+    font-size:170%;
+    font-weight: bolder;
+ }
+ nav ul li{
+   font-size: 120%;
+    list-style-type: none;
+    display: inline;
+    padding: 10px 20px;
+ }
+nav ul li button{
+    font-size: small;
+    cursor: pointer; 
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
+}
+ 
+ #container{
+    text-decoration-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    
+ }
+ 
+#container .left{ 
+   position: relative;
+   left: 300px;
+    width:50% 
+}
+
+#container .right{
+    width:50%;
+    margin:0;
+    position: relative;
+    left: 120px;
+}
+
+ #container .right img{
+  
+    padding-top: 50px;
+ }
+
+ #container .side ul li{
+   margin:0;
+   position:relative;
+   list-style-type: none;
+   padding: 10px 20px;
+ }
+
+ #container .side .rotation{
+   transform: rotate(90deg);
+   padding-top: 35px;
+   font-size: smaller;
+ }
+
+ #container .left button{
+    font-size: 75%;
+    font-weight: bolder;
+    color: white;
+    background-color: transparent;
+    cursor: pointer; 
+    border: 1px solid white; 
+    padding: 10px 20px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
+    
+ }
+ footer {
+   background-color: white;
+ }
+
